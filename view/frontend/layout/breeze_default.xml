@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="breeze.js">
+            <arguments>
+                <argument name="better_compatibility" xsi:type="array">
+                    <item name="Amasty_MegaMenuLite" xsi:type="boolean">true</item>
+                </argument>
+                <argument name="bundles" xsi:type="array">
+                    <item name="knockout" xsi:type="array">
+                        <item name="items" xsi:type="array">
+                            <item name="knockout-fast-foreach" xsi:type="string">Swissup_BreezeAmastyMegaMenu/js/knockout-fast-foreach</item>
+                        </item>
+                    </item>
+                    <item name="dynamic" xsi:type="array">
+                        <item name="items" xsi:type="array">
+                            <item name="ammenu_color_helper" xsi:type="array">
+                                <item name="path" xsi:type="string">Swissup_BreezeAmastyMegaMenu/js/color-helper</item>
+                            </item>
+                        </item>
+                    </item>
+                </argument>
+            </arguments>
+        </referenceBlock>
+    </body>
+</page>
