@@ -1,9 +1,12 @@
 {
     "name": "swissup/module-breeze-amasty-mega-menu",
-    "description": "",
+    "description": "Amasty Mega menu integration with Breeze Frontend",
     "type": "magento2-module",
     "version": "1.0.0",
     "license": "OSL-3.0",
+    "require": {
+        "swissup/module-breeze": "^2.28.1"
+    },
     "autoload": {
         "files": [
             "registration.php"
